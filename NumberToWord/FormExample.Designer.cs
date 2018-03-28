@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormExample));
             this.cboCurrency = new System.Windows.Forms.ComboBox();
             this.txtNumber = new System.Windows.Forms.TextBox();
             this.txtArabicWord = new System.Windows.Forms.TextBox();
@@ -122,7 +121,6 @@
             this.ClientSize = new System.Drawing.Size(780, 227);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Number to Word in English and Arabic";
             this.groupBox1.ResumeLayout(false);
